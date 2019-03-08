@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>桐柏县电子商务公共服务中心楼层介绍</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="box" id="floorbox">
+    <h1 class="wow fadeIn" data-wow-delay="0.5s">河南淮源蓝奥智能科技有限公司  桐柏县电子商务运营中心介绍</h1>
+    <div class="box-info wow fadeIn" data-wow-delay="1s">
+        <p>河南淮源蓝奥智能科技有限公司，隶属中原蓝奥集团旗下全资子公司，成立于2016年，集团以提高豫西南传统产业的转型升级为主导，致力打造B2B2C电子商务交易平台，以专业的研发团队及服务团队，与国内领先的电商平台、搜索引擎、门户网站、知名论坛等有长期合作伙伴关系；帮助政府及企业打通项目及品牌的所有电子商务销售渠道，包括商务运营、电商平台管理、电商品牌包装、网络名店打造等。</p>
+    </div>
+    <div class="box2">
+        <h1 class="wow fadeInUp" data-wow-delay="1.2s">中心一览</h1>
+        <ul class="clearfix">
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c27.JPG" width="100%">
+                <p>前台</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c22.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c23.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.1s">
+                <img src="images/c24.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.4s">
+                <img src="images/c25.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c26.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.1s">
+                <img src="images/c28.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.4s">
+                <img src="images/c29.JPG" width="100%">
+                <p>仓库</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c30.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c31.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c32.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c33.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c34.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c35.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c36.JPG" width="100%">
+                <p>公司一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c37.JPG" width="100%">
+                <p>公司会议室</p>
+            </li>
+        </ul>
+    </div>
+    <div class="bigimg">
+        <p>x</p>
+        <img src="" />
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/wow.js"></script>
+<script>
+    new WOW().init();
+    var aImg = $('.box2').find('img'),
+        bigImg = $('.bigimg'),
+        delP = bigImg.children('p'),
+        oImg = bigImg.children('img');
+    aImg.on('click',function(){
+        bigImg.fadeIn();
+        var imgSrc = $(this).attr('src');
+        oImg.attr('src',imgSrc);
+    });
+    delP.on('click',function(){
+        bigImg.fadeOut();
+    })
+</script>
+</body>
+</html>

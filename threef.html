@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>桐柏县电子商务公共服务中心楼层介绍</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="box" id="floorbox">
+    <h1 class="wow fadeIn" data-wow-delay="0.5s">培训学校、电教室、会议室、商务洽谈室、阿里巴巴介绍</h1>
+    <div class="box-info wow fadeIn" data-wow-delay="1s">
+        <p>桐柏县电子商务大厦三楼针对电子商务公共服务中心运营特开设的有：培训学校、电脑实操室、会议室、商务洽谈室等区域，并提供免费电脑实操培训及商务洽谈区，给来访人员及学习者提供良好的学习环境和交谈区</p>
+    </div>
+    <div class="box2">
+        <h1 class="wow fadeInUp" data-wow-delay="1.2s">三楼一览</h1>
+        <ul class="clearfix">
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c12.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c13.JPG" width="100%">
+                <p>会议室</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.1s">
+                <img src="images/c14.JPG" width="100%">
+                <p>电子阅览室</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.4s">
+                <img src="images/c15.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c16.JPG" width="100%">
+                <p>电商实操室</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c17.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.1s">
+                <img src="images/c18.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.4s">
+                <img src="images/c19.JPG" width="100%">
+                <p>众创空间</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                <img src="images/c20.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="0.8s">
+                <img src="images/c21.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.1s">
+                <img src="images/c21_1.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+            <li class="wow fadeInLeft" data-wow-delay="1.4s">
+                <img src="images/c21_2.JPG" width="100%">
+                <p>三楼一角</p>
+            </li>
+        </ul>
+    </div>
+    <div class="bigimg">
+        <p>x</p>
+        <img src="" />
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/wow.js"></script>
+<script>
+    new WOW().init();
+    var aImg = $('.box2').find('img'),
+        bigImg = $('.bigimg'),
+        delP = bigImg.children('p'),
+        oImg = bigImg.children('img');
+    aImg.on('click',function(){
+        bigImg.fadeIn();
+        var imgSrc = $(this).attr('src');
+        oImg.attr('src',imgSrc);
+    });
+    delP.on('click',function(){
+        bigImg.fadeOut();
+    })
+</script>
+</body>
+</html>
